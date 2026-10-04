@@ -1,0 +1,37 @@
+# DP-ADAGE: Core dependencies
+# Install with: pip install -r requirements.txt
+
+# Deep learning & GNNs
+torch>=2.0.0
+torch-geometric>=2.3.0
+# Optional PyG extensions (These take a LONG time to install if compiling from source!)
+# If you get errors without them, install them using the precompiled wheels for your specific PyTorch/CUDA version.
+# See: https://pytorch-geometric.readthedocs.io/en/latest/install/installation.html
+# torch-scatter>=2.1.0
+# torch-sparse>=0.6.17
+# Graph processing
+networkx>=3.0
+python-louvain>=0.16     # community detection (import as community)
+scikit-learn>=1.2.0
+
+# Scientific computing
+numpy>=1.24.0
+scipy>=1.10.0
+
+# Data handling
+pandas>=2.0.0
+
+# Visualization (PDF output)
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Privacy accounting
+# (RDP accounting implemented natively in src/rdp_accountant.py)
+
+# Utilities
+tqdm>=4.65.0
+pyyaml>=6.0
+
+# Optional: for Jupyter notebook experiments
+# jupyter>=1.0.0
+# ipykernel>=6.0.0

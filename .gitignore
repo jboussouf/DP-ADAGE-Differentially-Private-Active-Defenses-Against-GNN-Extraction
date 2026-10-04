@@ -1,0 +1,10 @@
+# Ignored documents and notebooks
+DP_ADAGE_elsicier-6.pdf
+RUN.ipynb
+RUN.upynb
+
+# Python & Jupyter artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
