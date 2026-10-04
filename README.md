@@ -18,7 +18,7 @@
 
 ---
 
-## 📖 Paper
+## Paper
 
 **"DP-ADAGE: Differentially Private Active Defenses Against GNN Extraction"**  
 Submitted to *Elsevier* — preprint available.
@@ -27,7 +27,7 @@ Submitted to *Elsevier* — preprint available.
 
 ---
 
-## 🏗️ System Overview
+## System Overview
 
 ```
 Incoming Query (user u, node v)
@@ -69,7 +69,7 @@ Incoming Query (user u, node v)
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 DP-ADAGE-V2/
@@ -173,7 +173,7 @@ jupyter notebook RUN.ipynb
 
 ---
 
-## ⚙️ Configuration
+## Configuration
 
 Default hyperparameters ([`data/config_default.json`](data/config_default.json)):
 
@@ -195,7 +195,7 @@ Default hyperparameters ([`data/config_default.json`](data/config_default.json))
 
 ---
 
-## 🔐 Formal Privacy Guarantee
+## Formal Privacy Guarantee
 
 For any user issuing T queries, the full interaction transcript satisfies **(ε\*, δ)-DP** where:
 
@@ -217,7 +217,7 @@ The noise floor mechanism ensures that once ε_cum,u = ε_total, **every subsequ
 
 ---
 
-## 📊 Key Results (Table 1)
+## Key Results (Table 1)
 
 Results averaged over **5 random seeds**, evaluated at **200 attacker queries** with **ε_total = 200.0**.
 
@@ -257,7 +257,7 @@ Results averaged over **5 random seeds**, evaluated at **200 attacker queries** 
 
 ---
 
-## 📉 Ablation: Budget Cap ε_total
+## Ablation: Budget Cap ε_total
 
 DP-ADAGE was evaluated with three budget settings across all datasets:
 
@@ -271,7 +271,7 @@ DP-ADAGE was evaluated with three budget settings across all datasets:
 
 ---
 
-## 🛡️ Adaptive Attacker Evaluation
+## Adaptive Attacker Evaluation
 
 Two adaptive strategies tested against DP-ADAGE (500 queries on Cora):
 
@@ -284,7 +284,7 @@ Two adaptive strategies tested against DP-ADAGE (500 queries on Cora):
 
 ---
 
-## 🌐 Large-Scale Scalability (Flickr)
+## Large-Scale Scalability (Flickr)
 
 | Dataset | Nodes | Edges | Defense | Surrogate Acc | Avg Latency |
 |---------|-------|-------|---------|--------------|-------------|
@@ -295,7 +295,7 @@ Two adaptive strategies tested against DP-ADAGE (500 queries on Cora):
 
 ---
 
-## 📐 Datasets
+## Datasets
 
 | Dataset | Nodes | Edges | Classes | Task | Modularity |
 |---------|-------|-------|---------|------|------------|
@@ -308,7 +308,7 @@ Two adaptive strategies tested against DP-ADAGE (500 queries on Cora):
 
 ---
 
-## 🔗 Related Work
+## Related Work
 
 | Work | Venue | Relation to DP-ADAGE |
 |------|-------|----------------------|
@@ -321,7 +321,7 @@ Two adaptive strategies tested against DP-ADAGE (500 queries on Cora):
 
 ---
 
-## 📝 Citation
+## Citation
 
 If you use DP-ADAGE in your research, please cite:
 
@@ -337,12 +337,12 @@ If you use DP-ADAGE in your research, please cite:
 
 ---
 
-## 📄 License
+## License
 
 MIT License — see [LICENSE](LICENSE) for details.
 
 ---
 
-## 🙏 Acknowledgements
+## Acknowledgements
 
 This work builds on the [ADAGE framework](https://doi.org/10.1145/3708821.3710437) (Xu et al., ASIACCS'26). Louvain community detection is implemented via the [`python-louvain`](https://github.com/taynaud/python-louvain) library. GNN models use [PyTorch Geometric](https://pytorch-geometric.readthedocs.io/).
