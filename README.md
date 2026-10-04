@@ -122,7 +122,7 @@ DP-ADAGE-V2/
 
 ---
 
-## ⚡ Quick Start
+## Quick Start
 
 ### 1. Install dependencies
 
