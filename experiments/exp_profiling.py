@@ -9,6 +9,7 @@ import os
 import sys
 import time
 import tracemalloc
+import numpy as np
 import torch
 import pandas as pd
 
@@ -53,11 +54,9 @@ def run_profiling_experiment():
     print("Initializing DP-ADAGE...")
     defense_sys = DPAdage(victim_model, epsilon_total=200.0, num_communities=100, device=device)
     
-    # We must explicitly call fit() to prep communities if required by DPAdage internals 
-    # mock data is basically random, so Louvain on it might take time.
-    # To bypass Louvain for pure API profiling, we can mock it.
+    # To bypass Louvain for pure API profiling, mock the community centroids (100 communities, 64-dim embeddings)
     print("Bypassing actual Louvain to focus purely on query tracking overhead...")
-    defense_sys.tracker.community_labels = {i: i % 100 for i in range(data.num_nodes)}
+    defense_sys.tracker._centroids = np.random.randn(defense_sys.tracker.num_communities, 64).astype(np.float32)
     
     # 1. Memory Profiling
     print("\n--- Memory Profiling ---")
