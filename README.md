@@ -130,6 +130,8 @@ DP-ADAGE-V2/
 
 ## Quick Start
 
+> [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://drive.google.com/file/d/1YrSofdLSYjfFnO5jCF0VzeavdsMxf13a/view?usp=sharing) &nbsp; **Try it instantly in your browser** — no local setup required.
+
 ### 1. Install dependencies
 
 ```bash
