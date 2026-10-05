@@ -26,6 +26,10 @@ Submitted to *Elsevier* — preprint available.
 
 > **TL;DR**: Graph Neural Networks deployed as cloud APIs are vulnerable to model extraction attacks. DP-ADAGE wraps any GNN API with four sequential components — a CommunityTracker, a BudgetAllocator, an RDPAccountant, and a Perturbation Mechanism — to deliver an auditable (ε\*, δ)-DP certificate for the entire query session without sacrificing benign utility.
 
+<p align="center">
+  <img src="main_figure.png" alt="DP-ADAGE Architecture Overview" width="100%">
+</p>
+
 ---
 
 ## System Overview
