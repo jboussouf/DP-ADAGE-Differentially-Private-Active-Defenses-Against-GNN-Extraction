@@ -8,8 +8,8 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![arXiv](https://img.shields.io/badge/arXiv-2026-b31b1b.svg)](https://arxiv.org/)
 
-**Jamal Boussouf · Ibrahim Ouahbi · Khalid El Makkaoui**  
-*University Mohammed First, Oujda, Morocco*
+**----- · ------- · ---------**  
+*University -------, ----, -------*
 
 </div>
 
@@ -461,11 +461,11 @@ Evaluating the three-way trade-off between **Security** ($1 - \text{Surrogate Ac
 If you use DP-ADAGE in your research, please cite:
 
 ```bibtex
-@article{boussouf2026dpadage,
+@article{--------2026dpadage,
   title       = {DP-ADAGE: Differentially Private Active Defenses Against GNN Extraction},
-  author      = {Boussouf, Jamal and Ouahbi, Ibrahim and El Makkaoui, Khalid},
+  author      = {------, ------, ---------, -------},
   year        = {2026},
-  institution = {University Mohammed First, Oujda, Morocco}
+  institution = {University -------, ------, --------}
 }
 ```
 
