@@ -462,10 +462,9 @@ If you use DP-ADAGE in your research, please cite:
 
 ```bibtex
 @article{boussouf2026dpadage,
-  title     = {DP-ADAGE: Differentially Private Active Defenses Against GNN Extraction},
-  author    = {Boussouf, Jamal and Ouahbi, Ibrahim and El Makkaoui, Khalid},
-  journal   = {Elsevier},
-  year      = {2026},
+  title       = {DP-ADAGE: Differentially Private Active Defenses Against GNN Extraction},
+  author      = {Boussouf, Jamal and Ouahbi, Ibrahim and El Makkaoui, Khalid},
+  year        = {2026},
   institution = {University Mohammed First, Oujda, Morocco}
 }
 ```
