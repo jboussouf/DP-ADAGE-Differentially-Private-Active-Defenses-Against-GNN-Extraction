@@ -15,20 +15,23 @@ Package structure:
     utils                - Dataset loading, metrics, helpers
 """
 
-from .community_tracker import CommunityTracker
-from .budget_allocator import BudgetAllocator
-from .rdp_accountant import RDPAccountant
-from .perturbation import GaussianPerturbationMechanism
-from .dp_adage import DPAdage
-from .adage_baseline import OriginalADAGE
-from .gnn_models import GCN, GAT, GraphSAGE, GIN
-from .attacker import SurrogateAttacker
-from .utils import (
-    load_dataset,
-    evaluate_downstream,
-    compute_kl_divergence,
-    set_seed,
-)
+try:
+    from .community_tracker import CommunityTracker
+    from .budget_allocator import BudgetAllocator
+    from .rdp_accountant import RDPAccountant
+    from .perturbation import GaussianPerturbationMechanism
+    from .dp_adage import DPAdage
+    from .adage_baseline import OriginalADAGE
+    from .gnn_models import GCN, GAT, GraphSAGE, GIN
+    from .attacker import SurrogateAttacker
+    from .utils import (
+        load_dataset,
+        evaluate_downstream,
+        compute_kl_divergence,
+        set_seed,
+    )
+except ImportError:
+    pass
 
 __version__ = "1.0.0"
 __author__ = "Jamal Boussouf"
